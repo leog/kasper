@@ -4,6 +4,7 @@ layout: default
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Inicio</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribirse</a>
     </nav>
     <div class="vertical">
