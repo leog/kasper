@@ -45,13 +45,13 @@ about: 'nosotros.html'
         </section>
         <footer class="post-meta">
             {% if site.author %}
-                <img class="author-thumb" src="assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                <img class="author-thumb" src="assets/images/profile.png" alt="Avatar del autor" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+                {{ post.categories | array_to_sentence_string | prepend: 'en ' }} 
             {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+            <time class="post-date" datetime="{{ post.date | date:"%d/%m/%Y" }}">
                 {{ post.date | date_to_string }}
             </time> 
         </footer>
