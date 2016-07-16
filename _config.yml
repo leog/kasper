@@ -1,6 +1,6 @@
-name: Partido Digital / El Blog
+name: El blog <i>del Partido Digital</i>
 description: Apto para todo digital
-meta_description: "Partido Digital / El Blog. Apto para todo digital."
+meta_description: "El blog del Partido Digital. Apto para todo digital."
 
 markdown: kramdown
 highlighter: rouge
