@@ -44,10 +44,9 @@ about: 'nosotros.html'
             {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
         </section>
         <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="assets/images/profile.png" alt="Avatar del autor" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
+            {% assign author = site.authors[page.author] %}
+            <img class="author-thumb" src="http://s.gravatar.com/avatar/{{ author.gravatar }}" alt="Avatar del autor" nopin="nopin" />
+            {{ author.name }}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'en ' }} 
             {% endif %}
