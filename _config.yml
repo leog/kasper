@@ -13,7 +13,7 @@ google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://leog.me/kasper/'
+url: 'http://leog.me/kasper/'
 
 authors:
     lgiovanetti:
@@ -25,4 +25,4 @@ authors:
         name: Justin Graside
         gravatar: 48a343011e82797193eb899f8e87c1be
         twitter: JustinGraside
-    description: Presidente
+        description: Presidente
