@@ -19,14 +19,10 @@ authors:
   lgiovanetti:
     name: Leonardo Giovanetti
     gravatar: 9b7fd436ad75a169c85874a27e9073f8
-    email: lgiovanetti@partidodigital.org.uy
-    web: http://leog.me
-    twitter: @leog
-    github: leog
+    twitter: leog
+    description: Líder IT
   jgraside:
     name: Justin Graside
-    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
-    email: jgraside@partidodigital.org.uy
-    web: https://uy.linkedin.com/in/justingraside
+    gravatar: 48a343011e82797193eb899f8e87c1be
     twitter: JustinGraside
-    github: justingraside
+    description: Presidente
