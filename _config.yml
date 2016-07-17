@@ -14,4 +14,19 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'http://leog.me/kasper/'
-author:         'Leonardo Giovanetti'
+
+authors:
+  lgiovanetti:
+    name: Leonardo Giovanetti
+    gravatar: 9b7fd436ad75a169c85874a27e9073f8
+    email: lgiovanetti@partidodigital.org.uy
+    web: http://leog.me
+    twitter: @leog
+    github: leog
+  jgraside:
+    name: Justin Graside
+    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
+    email: jgraside@partidodigital.org.uy
+    web: https://uy.linkedin.com/in/justingraside
+    twitter: JustinGraside
+    github: justingraside
