@@ -1,6 +1,7 @@
 name: El blog <i>del Partido Digital</i>
 description: Apto para todo digital
 meta_description: "El blog del Partido Digital. Apto para todo digital."
+title: El blog del Partido Digital
 
 markdown: kramdown
 highlighter: rouge
