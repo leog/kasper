@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   10/11/2013 10:18:00
 categories: Thriller Comedy Horror
+author: lgiovanetti
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
