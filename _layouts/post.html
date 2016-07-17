@@ -61,21 +61,19 @@ post_class: post-template
         {% endif %}
 
         <footer class="post-footer">
-            <!-- If we want to display author's name and bio -->
-            {% if site.author %}
-                <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url({{ site.baseurl }}assets/images/profile.png)">
-                    <span class="hidden">Imágen de {{site.author}}</span></a>
-                </figure>
-                <section class="author">
-                    <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
-                    <!-- Author Bio -->
-                    <p>
-                        Aquí vá la descripción del autor. Se pueden agregar links acá también.
-                    </p>
-                </section>
-            {% endif %}
+            {% assign author = site.authors[page.author] %}
+            <figure class="author-image">
+                <a class="img" href="http://twitter.com/{{ author.twitter }}" style="background-image: url(http://s.gravatar.com/avatar/{{ author.gravatar }})">
+                <span class="hidden">Avatar de {{author.name}}</span></a>
+            </figure>
+            <section class="author">
+                <!-- Author Name -->
+                <h4> {{ author.name }} </h4>
+                <!-- Author Bio -->
+                <p>
+                    {{ author.description }}
+                </p>
+            </section>
 
             <!-- Share links section -->
             {% include share.html %}
