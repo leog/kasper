@@ -16,13 +16,15 @@ gems: [jekyll-paginate]
 url: 'http://leog.me/kasper/'
 
 authors:
+  -
     lgiovanetti:
-        name: Leonardo Giovanetti
-        gravatar: 9b7fd436ad75a169c85874a27e9073f8
-        twitter: leog
-        description: Líder IT
+      name: Leonardo Giovanetti
+      gravatar: 9b7fd436ad75a169c85874a27e9073f8
+      twitter: leog
+      description: Líder IT
+  -
     jgraside:
-        name: Justin Graside
-        gravatar: 48a343011e82797193eb899f8e87c1be
-        twitter: JustinGraside
-        description: Presidente
+      name: Justin Graside
+      gravatar: 48a343011e82797193eb899f8e87c1be
+      twitter: JustinGraside
+      description: Presidente
